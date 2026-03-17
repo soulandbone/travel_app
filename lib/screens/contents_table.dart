@@ -4,7 +4,8 @@ import 'package:travel_app/constants/app_strings.dart';
 
 import 'package:travel_app/widgets/container_double.dart';
 import 'package:travel_app/widgets/container_simple.dart';
-import 'package:travel_app/widgets/trip_overview.dart';
+// import 'package:travel_app/widgets/trip_overview.dart';
+import 'package:travel_app/screens/daily_schedule.dart';
 
 class ContentsTable extends StatelessWidget {
   const ContentsTable({super.key});
@@ -23,7 +24,7 @@ class ContentsTable extends StatelessWidget {
               onTap: () {
                 Navigator.of(context).push(
                   MaterialPageRoute(
-                    builder: (BuildContext context) => TripOverView(),
+                    builder: (BuildContext context) => DailySchedule(),
                   ),
                 );
               },
