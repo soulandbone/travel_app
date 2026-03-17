@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
 class AppColors {
   static Color darkTeal = Color(0xFF35696F);
   static Color tan = Color(0xFFE5CBB0);

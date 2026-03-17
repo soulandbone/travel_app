@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:travel_app/widgets/daily_schedule_container.dart';
+import 'package:travel_app/widgets/daily_schedule_info.dart';
 
 class DailySchedule extends StatelessWidget {
   const DailySchedule({super.key});
@@ -15,7 +15,8 @@ class DailySchedule extends StatelessWidget {
             child: Column(
               children: [
                 // scheduleList.map((singleSchedule)) => DailyScheduleContainer(schedule:singleSchedule)).toList(),
-                DailyScheduleContainer(dayTime: 'Morning', time1: '08:00 AM', time2: '09:30 AM', activity1: 'Breakfast', activity2: 'Beach',),
+                // DailyScheduleContainer(dayTime: 'Morning', time1: '08:00 AM', time2: '09:30 AM', activity1: 'Breakfast', activity2: 'Beach',),
+                DailyScheduleInfo()
               ]
             ),
           )
