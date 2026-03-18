@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:travel_app/widgets/itinerary_black.dart';
 import 'package:travel_app/widgets/itinerary_white.dart';
 
 class DailySchedule extends StatelessWidget {
@@ -15,7 +16,7 @@ class DailySchedule extends StatelessWidget {
             decoration: BoxDecoration(color: Colors.deepPurple),
             child: Column(
               children: [
-                ItineraryWhite()
+                ItineraryBlack()
               ]
             ),
           )

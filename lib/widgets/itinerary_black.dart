@@ -4,10 +4,10 @@ import 'package:travel_app/constants/app_styles.dart';
 import 'package:travel_app/widgets/itinerary_container.dart';
 
 
-class ItineraryWhite extends StatelessWidget {
+class ItineraryBlack extends StatelessWidget {
 
 
-  const ItineraryWhite({super.key,});
+  const ItineraryBlack({super.key,});
 
 
   @override
