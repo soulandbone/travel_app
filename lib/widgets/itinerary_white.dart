@@ -16,7 +16,6 @@ class ItineraryWhite extends StatelessWidget {
     return Container(
       padding: EdgeInsets.symmetric(vertical:15, horizontal:25),
       height: size.height*0.45,
-      decoration: BoxDecoration(color: Colors.deepPurple),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

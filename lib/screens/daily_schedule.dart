@@ -12,6 +12,7 @@ class DailySchedule extends StatelessWidget {
         children: [
           Container(
             padding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+            decoration: BoxDecoration(color: Colors.deepPurple),
             child: Column(
               children: [
                 ItineraryWhite()
