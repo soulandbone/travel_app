@@ -8,27 +8,13 @@ class AppStyles {
     fontWeight: FontWeight.bold,
   );
   
-  static const TextStyle dayTimeWhite = TextStyle(
+  static const TextStyle dayTime = TextStyle(
     fontSize: 20,
     fontWeight: FontWeight.bold, 
-    color: Colors.white,
   );
   
-  static const TextStyle itineraryInfoWhite = TextStyle(
+  static const TextStyle itineraryInfo = TextStyle(
     fontSize: 14, 
     fontWeight: FontWeight.bold, 
-    color: Colors.white
-  );
-
-  static const TextStyle dayTimeBlack = TextStyle(
-    fontSize: 20,
-    fontWeight: FontWeight.bold, 
-    color: Colors.black,
-  );
-  
-  static const TextStyle itineraryInfoBlack = TextStyle(
-    fontSize: 14, 
-    fontWeight: FontWeight.bold, 
-    color: Colors.black,
   );
 }
